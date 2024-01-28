@@ -114,7 +114,7 @@
             >;
         };
 
-        function {
+        layer_4 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -123,12 +123,12 @@
             >;
         };
 
-        layer_4 {
+        function {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &kp PG_UP  &trans    &kp PG_DN  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12
+        &trans  &kp LEFT   &kp UP    &kp RIGHT  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&trans  &trans  &kp HOME   &kp DOWN  &kp END    &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                           &trans    &trans     &trans    &trans  &trans  &trans
             >;
         };
     };
