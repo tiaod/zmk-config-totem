@@ -102,9 +102,9 @@
 
         nav {
             bindings = <
-        &kp SCROLLLOCK   &kp PG_UP  &trans    &kp PG_DN  &kp PRINTSCREEN    &kp PRINTSCREEN  &kp F9     &kp F10    &kp F11   &kp F12
-        &kp CAPSLOCK     &kp LEFT   &kp UP    &kp RIGHT  &kp INSERT         &kp SCROLLLOCK   &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&trans  &kp PAUSE_BREAK  &kp HOME   &kp DOWN  &kp END    &trans             &kp PAUSE_BREAK  &kp F1     &kp F2     &kp F3    &kp F4    &trans
+        &kp SCROLLLOCK   &kp PG_UP  &trans    &kp PG_DN  &kp PRINTSCREEN    &trans           &trans     &trans     &trans    &trans
+        &kp CAPSLOCK     &kp LEFT   &kp UP    &kp RIGHT  &kp INSERT         &trans           &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+&trans  &kp PAUSE_BREAK  &kp HOME   &kp DOWN  &kp END    &trans             &trans           &trans     &trans     &trans    &trans    &trans
                                     &trans    &trans     &trans             &trans           &trans     &trans
             >;
         };
@@ -120,9 +120,9 @@
 
         function {
             bindings = <
-        &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &kp F9     &kp F10    &kp F11   &kp F12
-        &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp F1     &kp F2     &kp F3    &kp N4    &trans
+        &kp F1  &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK    &trans  &trans     &trans     &trans    &trans
+        &kp F5  &kp F6   &kp F7   &kp F8   &kp PAUSE_BREAK    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans     &trans     &trans    &trans    &trans
                          &trans   &trans   &trans    &trans  &trans     &trans
             >;
         };
