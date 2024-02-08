@@ -102,10 +102,10 @@
 
         nav {
             bindings = <
-        &kp SCROLLLOCK   &kp PG_UP  &trans    &kp PG_DN  &kp PRINTSCREEN    &trans           &trans     &trans     &trans    &trans
-        &kp CAPSLOCK     &kp LEFT   &kp UP    &kp RIGHT  &kp INSERT         &trans           &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&trans  &kp PAUSE_BREAK  &kp HOME   &kp DOWN  &kp END    &trans             &trans           &trans     &trans     &trans    &trans    &trans
-                                    &trans    &trans     &trans             &trans           &trans     &trans
+        &trans        &kp PG_UP  &kp PRINTSCREEN  &kp PG_DN  &kp K_CALC    &trans  &trans     &trans     &trans    &trans
+        &kp CAPSLOCK  &kp LEFT   &kp UP           &kp RIGHT  &kp INSERT    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+&trans  &trans        &kp HOME   &kp DOWN         &kp END    &trans        &trans  &trans     &trans     &trans    &trans    &trans
+                                 &trans           &trans     &trans        &trans  &trans     &trans
             >;
         };
 
@@ -120,10 +120,19 @@
 
         function {
             bindings = <
-        &kp F1  &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK    &trans  &trans     &trans     &trans    &trans
+        &kp F1  &kp F2   &kp F3   &kp F4   &kp SCROLLLOCK     &trans  &trans     &trans     &trans    &trans
         &kp F5  &kp F6   &kp F7   &kp F8   &kp PAUSE_BREAK    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &trans     &trans     &trans    &trans    &trans
-                         &trans   &trans   &trans    &trans  &trans     &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans             &trans  &trans     &trans     &trans    &trans    &trans
+                         &trans   &trans   &trans             &trans  &trans     &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
