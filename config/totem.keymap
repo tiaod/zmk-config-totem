@@ -120,9 +120,9 @@
 
         function {
             bindings = <
-        &trans  &trans     &trans     &trans    &trans      &kp SCROLLLOCK   &kp F1  &kp F2   &kp F3   &kp F4
+        &trans  &trans     &trans     &trans    &trans      &kp SCROLLLOCK   &kp F9  &kp F10  &kp F11  &kp F12
         &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI    &kp PAUSE_BREAK  &kp F5  &kp F6   &kp F7   &kp F8
-&trans  &trans  &trans     &trans     &trans    &trans      &kp C_MENU       &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans     &trans     &trans    &trans      &kp C_MENU       &kp F1  &kp F2   &kp F3   &kp F4   &trans
                            &trans     &trans    &trans      &trans           &trans  &trans
             >;
         };
