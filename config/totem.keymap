@@ -102,10 +102,10 @@
 
         nav {
             bindings = <
-        &trans        &kp PG_UP  &kp PRINTSCREEN  &kp PG_DN  &kp K_CALC    &trans  &trans     &trans     &trans    &trans
-        &kp CAPSLOCK  &kp LEFT   &kp UP           &kp RIGHT  &kp INSERT    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
-&trans  &trans        &kp HOME   &kp DOWN         &kp END    &trans        &trans  &trans     &trans     &trans    &trans    &trans
-                                 &trans           &trans     &trans        &trans  &trans     &trans
+        &kp PRINTSCREEN  &kp PG_UP  &trans    &kp PG_DN  &kp K_CALC    &trans  &trans     &trans     &trans    &trans
+        &kp CAPSLOCK     &kp LEFT   &kp UP    &kp RIGHT  &kp INSERT    &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI
+&trans  &trans           &kp HOME   &kp DOWN  &kp END    &trans        &trans  &trans     &trans     &trans    &trans    &trans
+                                    &trans    &trans     &trans        &trans  &trans     &trans
             >;
         };
 
