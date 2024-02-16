@@ -29,12 +29,17 @@
 };
 
 &caps_word {
-    
 };
 
-
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        caps_words {
+            bindings = <&caps_word>;
+            key-positions = <20 31>;
+        };
+    };
 
     macros {
         gif: gif {
