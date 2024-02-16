@@ -28,6 +28,11 @@
     tapping-term-ms = <200>;
 };
 
+&caps_word {
+    
+};
+
+
 / {
     combos { compatible = "zmk,combos"; };
 
